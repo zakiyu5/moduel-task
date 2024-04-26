@@ -1,0 +1,34 @@
+body {
+    padding-top: 70px;
+}
+
+.tall-section {
+    background-color: #eee;
+    height: 1000px;
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+        margin-right: 15px;
+    }
+
+    .navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand>img {
+        height: 100%;
+    }
+
+    .navbar-nav>li {
+        float: none;
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar-collapse {
+        border-top: 0;
+        box-shadow: none
